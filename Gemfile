@@ -14,7 +14,7 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem "devise"
+gem 'devise'
 
 group :development, :test do
   gem 'byebug'
@@ -27,7 +27,8 @@ group :development do
 end
 
 group :test do
-  gem "rspec-rails", "~> 2.14"
-  gem "factory_girl_rails"
+  gem 'rspec-rails', '~> 2.14'
+  gem 'factory_girl_rails'
   gem 'ffaker'
+  gem 'shoulda-matchers'
 end
