@@ -18,6 +18,8 @@ gem 'devise'
 
 group :development, :test do
   gem 'byebug'
+  gem 'rspec-rails', '~> 3.1'
+  gem 'shoulda-matchers', '~> 2.8'
 end
 
 group :development do
@@ -27,8 +29,6 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-rails', '~> 2.14'
   gem 'factory_girl_rails'
   gem 'ffaker'
-  gem 'shoulda-matchers'
 end
