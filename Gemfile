@@ -22,7 +22,10 @@ gem 'furatto'
 gem 'font-awesome-rails'
 gem 'simple_form'
 
+gem 'active_model_serializers', '~> 0.8.3'
+
 group :development, :test do
+  gem 'pry'
   gem 'byebug'
   gem 'rspec-rails', '~> 3.1'
   gem 'shoulda-matchers', '~> 2.8'
