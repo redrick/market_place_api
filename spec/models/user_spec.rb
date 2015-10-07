@@ -17,6 +17,7 @@ describe User do
   it { should allow_value('example@domain.com').for(:email) }
 
   it { should have_many(:products) }
+  it { should have_many(:orders) }
 
   describe "#generate_authentication_token!" do
     it "generates a unique token" do
